@@ -1,0 +1,25 @@
+name            : example
+description     : Example Project for cupertino_stackview.
+version         : 2.0.0
+
+repository      : https://github.com/aliyigitbireroglu/flutter-cupertino-stackview
+homepage        : https://www.cosmossoftware.coffee
+
+environment     :
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies    :
+  flutter            :
+    sdk: flutter
+  cupertino_stackview:
+  
+  spring_button      : ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter         :
+  uses-material-design: true
+  assets              :
+    - assets/
